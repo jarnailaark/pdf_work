@@ -14,7 +14,7 @@ export default function Home() {
           priority
         />
         <ol>
-          <li>
+          <li className="m-5 p-5">
             i am back Get started by editing <code>app/page.js</code>.
           </li>
           <li>Save and see your changes instantly.</li>
