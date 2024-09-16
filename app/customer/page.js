@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 
 import React from "react";
 
+
 const page = () => {
   const [customers, setCustomers] = useState(null);
 
@@ -18,7 +19,7 @@ const page = () => {
 
   return (
     <div>
-      <h1>Customer List</h1>
+      <h1 className="customer_hading m-4">Customer List</h1>
 
       <ul>
      
